@@ -45,6 +45,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+
 ]
 
 #Autorisation des 
@@ -70,6 +72,12 @@ CORS_ALLOW_HEADERS = [
 CORS_ALLOWED_ORIGIN_REGEXES = [
     '^http://localhost:3000$',
 ]
+
+SESSION_COOKIE_SECURE = False
+SESSION_COOKIE_SAMESITE = 'None'
+
+SECURE_REFERRER_POLICY = 'same-origin'
+
 
 ROOT_URLCONF = 'config.urls'
 
