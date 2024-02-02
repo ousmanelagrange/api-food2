@@ -52,8 +52,11 @@ MIDDLEWARE = [
 #Autorisation des 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'exp://192.168.1.101:19000'
+    'exp://192.168.1.101:19000',
+    'https://api2-moya.onrender.com',
+    # Ajoutez d'autres origines autorisées au besoin
 ]
+
 
 CORS_ALLOW_CREDENTIALS = True
 
