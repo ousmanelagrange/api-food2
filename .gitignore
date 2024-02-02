@@ -1,0 +1,60 @@
+# Fichiers générés par Python
+*.pyc
+__pycache__/
+
+# Fichiers générés par Django
+db.sqlite3
+*.log
+
+# Environnement virtuel
+venv/
+env/
+
+# Fichiers de configuration Django
+*.ini
+
+# Fichiers de sauvegarde
+*.bak
+
+# Dossiers spécifiques à IDE/éditeurs
+.idea/
+.vscode/
+
+# Fichiers de configuration
+*.yml
+*.yaml
+
+# Fichiers de cache
+__pycache__/
+
+# Fichiers de cache et d'archives
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+
+# Fichiers de sauvegarde et de compilation
+*~
+*.bak
+*.swp
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Fichiers de test
+*.db
+*.sqlite3
+
+# Fichiers de documentation générée
+/_build/
+
+# Chemins à ne pas suivre
+/site_media/
+/static/
+/media/
+
+# Fichiers de cache Django
+__pycache__/
+.cache/
+.cached/
